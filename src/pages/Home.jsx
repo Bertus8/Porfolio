@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Splash from '../components/Splash';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Splash/>
+      Home
+      </div>
   )
 }
 
