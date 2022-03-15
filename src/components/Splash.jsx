@@ -30,22 +30,24 @@ const Splash = () => {
   return (
     <>
         {showSplash === 0 &&  <div className="pantallaDeCarga">
-        <Reveal delay={2000} keyframes={fadeOut}>
+        <Reveal delay={500} keyframes={fadeOut}>
         <Bounce>
-          <img
+          <img className='img-reveal'
             src="./Animations/presentation.gif"
             alt="logo"
           />
         </Bounce>
+        <div className='title-name'>
         <Fade delay={1000} triggerOnce>
         <h1>Alberto</h1>
         </Fade>
-        <Fade delay={1000} triggerOnce>
+        <Fade delay={2000} triggerOnce>
         <h1>Sánchez</h1>
         </Fade>
-        <Fade delay={1000} triggerOnce>
+        <Fade delay={3000} triggerOnce>
         <h1>Periñán</h1>
         </Fade>
+        </div>
         </Reveal>
     </div>}
         

@@ -4,14 +4,12 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import Nav from './components/Nav';
-import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Nav/>
+  
       <Routes>
         <Route path="/">
           <Route index element={<Home/>}/>
@@ -21,7 +19,6 @@ function App() {
           <Route path="Contact" element={<Contact/>}/>
         </Route>
         </Routes>
-        <Footer/>
       </BrowserRouter>
     </div>
   );
