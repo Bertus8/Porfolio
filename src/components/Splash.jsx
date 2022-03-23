@@ -39,13 +39,13 @@ const Splash = () => {
         </Bounce>
         <div className='title-name'>
         <Fade delay={1000} triggerOnce>
-        <h1>Alberto</h1>
+        <h1>Hola</h1>
         </Fade>
         <Fade delay={2000} triggerOnce>
-        <h1>Sánchez</h1>
+        <h1>Soy</h1>
         </Fade>
         <Fade delay={3000} triggerOnce>
-        <h1>Periñán</h1>
+        <h1 className='name'>Alberto Sánchez Periñán</h1>
         </Fade>
         </div>
         </Reveal>
