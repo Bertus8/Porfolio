@@ -1,9 +1,11 @@
 import React from 'react';
-import './About.scss';
+import './Contact.scss';
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div className='container-contact'>
+    <img className='img-contact' src="./images/Contact.jpg" alt="Buzon en pared piedra" />
+    </div>
   )
 }
 

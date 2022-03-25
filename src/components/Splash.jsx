@@ -18,7 +18,7 @@ const Splash = () => {
   const carga = () => {
     setTimeout(() => {
       setShowSplash(1);
-    }, 10000);
+    }, 6000);
 
     setShowSplash(0);
   };
@@ -39,10 +39,10 @@ const Splash = () => {
         </Bounce>
         <div className='title-name'>
         <Fade delay={1000} triggerOnce>
-        <h1>Hola</h1>
+        <h1>Bienvenidos</h1>
         </Fade>
         <Fade delay={2000} triggerOnce>
-        <h1>Soy</h1>
+        <h1>a mi Portfolio</h1>
         </Fade>
         <Fade delay={3000} triggerOnce>
         <h1 className='name'>Alberto Sánchez Periñán</h1>
