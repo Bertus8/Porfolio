@@ -19,18 +19,18 @@
     z-index: 1;
     width: 100vw;
     position: absolute;
-    h1 {
-        text-transform: Uppercase;
-        margin-bottom: .5em;
-        font-family: 'Rubik', sans-serif;
-        font-size: 1.5rem;
-        color: #E4E5E6; }
+
         
         h1 {
+            margin-bottom: .5em;
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.5rem;
+            text-transform: Uppercase;
         position: relative;
-        background: linear-gradient(to right, #9191f8, #547ac2, #39309c);
+        background: linear-gradient(to right, #000000, #5f0096, #ffffff);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; }
+        -webkit-text-fill-color: transparent; 
+    }
         
         h1:before,
         h1:after {
@@ -49,9 +49,9 @@
         mix-blend-mode: multiply; }
     .name{
         color: rgb(0, 0, 0);
-        font-size: 1.6rem;
+        font-size: 1.2rem;
         margin-top: 52vh;
-        text-shadow: 0px 2px 6px #6464b1,(4, 0, 255, 0.712);
+        text-shadow: 0px 2px 6px #0000fc,(4, 0, 255, 0.712);
     }
 }
 }
