@@ -24,25 +24,39 @@ const Projects = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="./images/projects/project1.png" />
+          <a href='https://rick-and-morty-plum.vercel.app/'>
+          <img src="./images/projects/project1.png" alt="Rick and Morthy"/>
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./images/projects/project2.png" />
+          <a href='https:angular-animes.vercel.app'>
+          <img src="./images/projects/project2.png" alt="Anime Tokyo Goul"/>
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./images/projects/project3.png" />
+          <a href='https://bertus8.github.io/Pokemon-Api/' >
+          <img src="./images/projects/project3.png" alt="Pokemons"/>
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./images/projects/project4.png" />
+          <a href='https://bertus8.github.io/Topo_Game/' >
+          <img src="./images/projects/project4.png" alt="Stargate"/>
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./images/projects/project5.png" />
+          <a href='https://proyecto-final-react-vert.vercel.app/' >
+          <img src="./images/projects/project5.png" alt="Protectora de Animales"/>
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./images/projects/project6.png" />
+          <a href='https://cv-react-ten.vercel.app' >
+          <img src="./images/projects/project6.png" alt="Cudrículum"/>
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./images/projects/project7.png" />
+          <a href='https://my-clock-pi.vercel.app'>
+          <img src="./images/projects/project7.png" alt="Reloj digital"/>
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>

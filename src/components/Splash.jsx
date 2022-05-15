@@ -30,7 +30,7 @@ const Splash = () => {
   return (
     <>
         {showSplash === 0 &&  <div className="pantallaDeCarga">
-        <Reveal delay={500} keyframes={fadeOut}>
+        <Reveal delay={1000} keyframes={fadeOut}>
         <Bounce>
           <img className='img-reveal'
             src="./Animations/presentation.gif"

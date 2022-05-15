@@ -23,11 +23,11 @@
         
         h1 {
             margin-bottom: .5em;
-        font-family: 'Rubik', sans-serif;
-        font-size: 1.5rem;
+        font-family: 'Anton', sans-serif;
+        font-size: 2rem;
             text-transform: Uppercase;
         position: relative;
-        background: linear-gradient(to right, #000000, #5f0096, #ffffff);
+        background: linear-gradient(to right, #09003d, #004196, #ffffff);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent; 
     }
@@ -49,7 +49,7 @@
         mix-blend-mode: multiply; }
     .name{
         color: rgb(0, 0, 0);
-        font-size: 1.2rem;
+        font-size: 2.2rem;
         margin-top: 52vh;
         text-shadow: 0px 2px 6px #0000fc,(4, 0, 255, 0.712);
     }
